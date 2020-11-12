@@ -7,12 +7,15 @@ export default () =>{
       <Container fixed>
            <Grid container justify="center" alignItems="center" spacing={5}>
                <Grid item xs={12} sm={6}>
-               <Typography variant="h3" className={styles.header__title}>Calcula IMC </Typography>
-               <Typography >O IMC é o índice da Massa corporal, é ultilizado para saber se o peso esta de acordo com a Altura</Typography>
+                <Typography variant="h3" className={styles.header__title}>Trabalho N2 - Gest. Financeira - Calculadora VPL </Typography>
+                <Typography >VPL: Valor presente liquido</Typography>
+                <Typography >Rt: Fluxo de caixa liquida no tempo T</Typography>
+                <Typography >i: Taxa de desconto </Typography>
+                <Typography >t: Tempo de fluxo em caixa</Typography>
                </Grid>
 
                <Grid item xs={12} sm={6}>
-               <img src="/medic.png" alt='medico e paciente'/>
+               <img src="formula.jpeg" alt='medico e paciente'/>
            </Grid>
            </Grid>
       </Container>

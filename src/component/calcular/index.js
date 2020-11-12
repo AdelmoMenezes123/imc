@@ -43,15 +43,19 @@ export default() => {
     return (
         <div className={styles.calculator}>
             <Container maxWidth="xs">
-                <Typography variant="h3" color="primary">Calculadora</Typography> 
+                <Typography variant="h3" color="primary">Calculadora VPL</Typography> 
                 
                 <Grid container direction="column" spacing={2}>
                     <Grid item>
-                        <TextField label="Altura em cm" variant="filled" fullWidth type="number" value={altura} onChange={e=> setAltura(e.target.value)}/>
+                        <TextField label="Fluxo de caixa liquida" variant="filled" fullWidth type="number" value={altura} onChange={e=> setAltura(e.target.value)}/>
                     </Grid>
 
                     <Grid item>
-                        <TextField label="Peso em Kg" variant="filled" fullWidth type="number" value={peso} onChange={e => setPeso(e.target.value)}/>
+                        <TextField label="taixa de desconto " variant="filled" fullWidth type="number" value={peso} onChange={e => setPeso(e.target.value)}/>
+                    </Grid>
+
+                    <Grid item>
+                        <TextField label="tempo de fluxo de caixa" variant="filled" fullWidth type="number" value={peso} onChange={e => setPeso(e.target.value)}/>
                     </Grid>
 
                     <Grid item>
